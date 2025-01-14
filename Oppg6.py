@@ -21,6 +21,7 @@ f_x = -(x)**2 - 5
 plt.close()
 plt.figure(1)
 plt.plot(x, f_x)
+plt.xlabel('x')
+plt.ylabel('f(x)')
 plt.savefig('funksjonsplott.pdf')
 plt.show()
-
